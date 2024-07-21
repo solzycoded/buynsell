@@ -1,0 +1,19 @@
+.search-bar {
+    width: 100% !important;
+}
+
+.search-results-dropdown-section {
+    border-radius: 0 !important;
+}
+
+.search-results-dropdown {
+    z-index: 999999999999999 !important;
+    overflow-y: auto;
+    max-height: 300px;
+    display: none;
+    transition: all 2s ease-out;
+}
+
+.search-results-dropdown.active {
+    display: block;
+}

@@ -1,0 +1,44 @@
+.login-section, .register-section {
+    width: 400px !important;
+    padding: 10px;
+}
+
+#main {
+    padding: 20px 40px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* alert */
+.alert-message {
+    bottom: 2%;
+    position: fixed;
+    z-index: 9999;
+}
+
+.alert-message.show {
+    opacity: 1;
+}
+
+.alert-message.hide {
+    opacity: 0;
+}
+
+.alert-message-container.success {
+    background-color: green;
+}
+
+.alert-message-container.failure {
+    background-color: red;
+}
+
+.alert-message-container {
+    border-radius: 20px; 
+    padding: 5px 15px 5px 15px; 
+    color: white; 
+    border: 0px; 
+    font-weight: bold; 
+    box-shadow: 1px 0px 20px #d1d1d1 !important;
+}

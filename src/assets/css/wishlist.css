@@ -1,0 +1,15 @@
+.saved-to-wishlist {
+    color: red !important;
+}
+
+.save-to-wishlist {
+    color: white;
+}
+
+.save-btn {
+    border: none;
+}
+
+.wishlist-icon-container {
+    z-index: 999 !important;
+}

@@ -1,0 +1,29 @@
+.cart-img {
+    max-height: 233px !important;
+    height: inherit;
+    width: inherit;
+}
+
+.view-product {
+    cursor: pointer; 
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.cart-img-container {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.view-product img {
+    height: inherit !important;
+    width: inherit !important;
+}
+
+.product-quantity {
+    font-size: 1.1em;
+}
+
+.remove-from-cart {
+    width: inherit;
+}
